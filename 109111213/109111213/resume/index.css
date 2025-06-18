@@ -1,0 +1,23 @@
+.profile { /* profile 區塊的樣式 */
+    text-align: center; /* 內容置中對齊 */
+    margin-top: 20px;  /* 與上方元素留 20px 的距離 */
+}
+
+.profile img { /* 圖片的樣式 */
+    width: 200px; /* 圖片寬度 */
+    height: 200px; /* 圖片高度 */
+    border-radius: 50%;  /* 圖片設為圓形 (半徑為寬高一半) */
+    object-fit: cover;   /* 保持圖片比例並填滿框線，超出的裁切掉 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 加上陰影效果 */
+}
+
+.profile h2 { /* 標題文字的樣式 */
+    margin-top: 15px; /* 與上方的距離 */
+    font-size: 20px; /* 字體大小 */
+}
+
+.profile p{ /* p 段落的樣式 */
+    margin-top: 10px;  /* 與上方元素的距離 */
+    font-size: 16px; /* 字體大小 */
+    color: #b38181;
+}

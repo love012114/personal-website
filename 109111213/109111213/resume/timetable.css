@@ -1,0 +1,31 @@
+body { /* 字體和背景顏色 */
+  font-family: "Microsoft JhengHei", sans-serif;
+  margin: 20px;
+  background-color: #f8e5e5; /* 淺粉背景 */
+}
+
+table { /* 表格寬度100%，無空隙 */
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td { /* 每格有邊框和內距 */
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th { /* 標題背景色 */
+  background-color: #ff6666; 
+  color: white;
+}
+
+.time { /* 時間欄背景 */
+  background-color: #ff9999; 
+  font-weight: bold;
+}
+
+.course { /* 課程欄背景 */
+  background-color: #ffd6d6; 
+}
+

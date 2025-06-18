@@ -1,0 +1,85 @@
+* { /* 全站統一預設 */
+    margin: 0; /* 外邊距歸零 */
+    padding: 0; /* 內邊距歸零 */
+    box-sizing: border-box; /* 包含 padding 和 border 在寬高內 */
+}
+
+body { /* 整體網頁背景色 */
+    background-color: #f8e5e5;
+}
+
+header { /* 頁首區域 */
+    background-color: #ff9999;
+    padding: 20px; /* 內距 */
+    text-align: center; /* 內容置中 */
+    width: 1200px; /* 固定寬度 */
+    margin: auto; /* 區塊水平置中 */
+}
+
+h1 { /* 網頁主標題 */
+    color: white; 
+    font-size: 36px; /* 字體大小 */
+    margin: 0; /* 無外邊距 */
+}
+
+nav { /* 導覽列 */
+    background-color: #ffcccc;
+    padding: 10px; /* 內距 */
+    text-align: center; /* 置中 */
+    width: 1200px;  /* 固定寬度 */
+    margin: auto; /* 區塊水平置中 */
+}
+
+nav ul { /* 導覽列項目列表 */
+    list-style-type: none; /* 移除項目前的點 */
+    margin: 0;
+    padding: 0;
+    display: flex; /* 橫向排列 */
+    justify-content: space-around; /* 項目平均分配空間 */
+}
+
+nav ul li { /* 導覽列的每個選單項目 */
+    display: block;
+}
+
+nav ul li a { /* 導覽列連結樣式 */
+    display: block; /* 讓整個區塊可點擊 */
+    color: #ff6666;
+    text-decoration: none; /* 移除底線 */
+    font-size: 18px;
+    font-weight: bold; /* 粗體 */
+    padding: 10px 0; /* 上下內距 */
+}
+
+main { /* 主要內容區塊 */
+    max-width: 1200px; /* 最大寬度為 1200px */
+    margin: 20px auto; /* 上下間距，自動置中 */
+    padding: 20px;/* 內距 */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 陰影 */
+}
+ 
+h2 { /* 次標題 樣式 */
+    color: #ff6666;
+    font-size: 24px;
+    margin-bottom: 15px; /* 底部間距 */
+    text-align: center; /* 置中 */
+}
+
+p { /* 一般段落文字 */
+    color: #666;
+    font-size: 16px;
+    line-height: 1.9; /* 行距 */
+    margin-bottom: 20px; /* 段落底部間距 */
+}
+
+footer { /* 頁尾區塊 */
+    background-color: #ff9999;
+    color: white;
+    padding: 20px 10px; /* 上下 左右 內距 */
+    text-align: center; /* 文字置中 */
+    font-size: 14px; /* 字體大小 */
+    margin-top: 40px; /* 與上方區塊間距 */
+    width: 1200px; /* 固定寬度 */
+    margin: auto; /* 水平置中 */
+}

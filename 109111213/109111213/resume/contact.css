@@ -1,0 +1,72 @@
+body {
+    font-family: "Microsoft JhengHei", sans-serif; /* 使用微軟正黑體 */
+    background-color: #f8e5e5; /* 主背景色改為白色（#FFFF 無效，應為 #FFFFFF） */
+    margin: 0; /* 移除頁面外邊距 */
+    padding: 0; /* 移除內邊距 */
+}
+
+.contact-container {
+    width: 90%; /* 容器寬度為視窗的 90% */
+    max-width: 500px; /* 最大寬度為 500px */
+    margin: 40px auto; /* 上下間距 40px，左右自動置中 */
+    padding: 20px; /* 內邊距 20px */
+    background-color: #fff; /* 容器背景為白色 */
+    border-radius: 6px; /* 圓角邊框 */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* 淡淡陰影效果 */
+}
+
+h2 {
+    text-align: center; /* 標題置中 */
+    color: #d94f4f; /* 主標題顏色（略深紅） */
+}
+
+form {
+    display: flex; /* 使用彈性盒子排版 */
+    flex-direction: column; /* 垂直排列 */
+}
+
+label {
+    margin-top: 10px; /* 上方間距 */
+    font-weight: bold; /* 粗體標籤文字 */
+}
+
+input,
+textarea {
+    padding: 8px; /* 內邊距 */
+    font-size: 16px; /* 字體大小 */
+    border: 1px solid #ccc; /* 淡灰色邊框 */
+    border-radius: 4px; /* 圓角 */
+}
+
+button {
+    margin-top: 15px; /* 上方間距 */
+    padding: 10px; /* 內邊距 */
+    background-color: #d94f4f; /* 按鈕背景顏色（深紅） */
+    color: white; /* 按鈕文字顏色 */
+    border: none; /* 無邊框 */
+    border-radius: 4px; /* 圓角 */
+    font-size: 16px; /* 字體大小 */
+    cursor: pointer; /* 滑鼠游標為手指形狀 */
+}
+
+button:hover {
+    background-color: #b93a3a; /* 滑鼠懸停時變色（更深紅） */
+}
+
+.icon-links {
+  display: flex; /* 排列圖示（橫向） */
+  justify-content: center; /* 圖片置中對齊 */
+  gap: 20px; /* 圖示的間距 */
+  margin-top: 20px; /* 與上方間距 */
+}
+
+.icon {
+  width: 60px; /* 寬度 */
+  height: 60px; /* 高度 */
+  object-fit: contain; /* 保持圖片比例 */
+  transition: transform 0.3s ease; /* 滑鼠移入時動畫效果 */
+}
+
+.icon:hover {
+  transform: scale(1.1); /* 滑鼠懸停時放大 10% */
+}

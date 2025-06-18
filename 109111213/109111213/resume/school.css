@@ -1,0 +1,51 @@
+.school-grid { /* 學校區塊的排版 */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 每排2欄 每欄寬度相等 */
+    gap: 20px; /* 欄與欄 列與列的間距 */
+    padding: 20px; /* 區塊內的內距 */
+}
+
+.school { /* 學校格子樣式設定 */
+    padding: 10px; /* 格子內部的空白距離 */
+    border: 1px solid #ccc; /* 邊框 寬 顏色 */
+    text-align: center; /* 格子內文字置中對齊 */
+    background-color: #fdfdfd; /* 格子背景顏色 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 陰影效果 */
+}
+
+.school h3 { /* 格子內標題樣式 */
+    margin-bottom: 10px; /* 標題與下方字之間的距離 */
+    font-size: 20px; /* 標題字型大小 */
+    color: #ff6666;
+}
+
+.school a { /* 超連結樣式 */
+    display: block; /* 超連結占滿一行 */
+    margin-bottom: 10px; /* 超連結與下方間距 */
+    color: #007bff;
+    text-decoration: none; /* 移除超連結底線 */
+}
+
+.school iframe { /* 地圖樣式 */
+    width: 100%; /* 寬度佔滿格子 */
+    height: 200px; /* 高度 */
+    border: 0; /* 移除預設邊框 */
+}
+
+.icon-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* 圖示間距 */
+    margin-top: 20px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.1); /* 滑過時放大 */
+}
